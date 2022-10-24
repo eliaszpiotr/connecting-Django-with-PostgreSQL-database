@@ -1,7 +1,7 @@
 
-# connecting-Django-with-PostgreSQL-database
+# Connecting Django with PostgreSQL database
 
-Databases not configured (For safety reasons)!!!
+Databases not configured (for safety reasons)!!!
 Remember: don't keep sensitive data under Git's control! Such sensitive data are, inter alia, data to connect to the database. We keep this data in the local_settings.py file, which you will not find in this repository (the file is added to .gitignore)!
 
 Have a look at the settings.py file, you will find the following section:
@@ -16,6 +16,7 @@ except ModuleNotFoundError:
 ```
 
 Add local_settings and fill with your data:
+
 ```python
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
