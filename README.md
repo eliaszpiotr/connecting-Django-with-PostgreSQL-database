@@ -10,8 +10,8 @@ Have a look at the settings.py file, you will find the following section:
 try:
   from local_settings import DATABASES
 except ModuleNotFoundError:
-  print("Brak konfiguracji bazy danych w pliku local_settings.py!")
-  print("Uzupełnij dane i spróbuj ponownie!")
+  print("No configuration in local_setings.py file")
+  print("Fill up data and continue.")
   exit(0)
 ```
 
